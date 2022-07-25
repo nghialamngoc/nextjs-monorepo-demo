@@ -1,0 +1,16 @@
+{
+  "name": "nextjs-monorepo",
+  "version": "1.0.0",
+  "description": "nextjs monorepo demo",
+  "repository": "https://github.com/nghialamngoc/nextjs-monorepo-demo.git",
+  "author": "nghialamngocit@gmail.com",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "@shared/*"
+  ],
+  "scripts": {
+    "home": "yarn workspace home"
+  }
+}
